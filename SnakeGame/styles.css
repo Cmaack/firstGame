@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  position:static;
+  background-color: black;
+
+  background-size: cover;
+
+}
+.content{
+  position: relative;
+  text-align: center;
+
+}
+.title {
+  position: relative;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  height: 100px;
+  width: 100%;
+  float: top;
+  border-bottom: 4px solid #7DFDFE;
+  text-align: center;
+
+
+}
+.title h1 {
+  color: #FF7D7D;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  width: 750px;
+
+}
+.title p {
+  color: #FF7D7D;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  width:750px;
+  float: bottom;
+  padding-top: 15px;
+}
+.game-board {
+  padding-top: 100px;
+  padding-bottom:50px;
+
+background-image:url("https://secure.static.tumblr.com/557ae05937125032d9053f1ed14a7df0/yhbjchm/L4Mn04tq1/tumblr_static_8878-circuit-board-1920x1200-vector-wallpaper.jpg");
+background-size:cover;
+
+}
+#canvas {
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #7DFDFE;
+}
