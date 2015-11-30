@@ -133,7 +133,7 @@ $(document).ready(function(){
 		return false;
 	}
 
-	//Adds keyboard controls to arrow keys the NOT prevents keys from reversing.
+	//Add keyboard controls to arrow keys the NOT prevents keys from reversing.
 	$(document).keydown(function(e){
 		var key = e.which;
 		if(key == "37" && d != "right") d = "left";
